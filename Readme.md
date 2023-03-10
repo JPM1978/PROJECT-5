@@ -10,8 +10,8 @@ An application to create, save, edit, update and/or delete projects used by proj
 - CSS
 - POSTMAN
 - SCHEMA
-- Next 
-- Tailwind
+- SWIFT
+  
 
 ### WIREFRAMES
 
