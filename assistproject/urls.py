@@ -2,6 +2,9 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from assists.views import AssistViewSet
+from assists.views import RegisterAPI
+from knox import views as knox_views
+from assists.views import LoginAPI
 
 # create a new router
 router = routers.DefaultRouter()
@@ -13,4 +16,9 @@ urlpatterns = [
     # add all of our router urls
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
+    path('api/register/', RegisterAPI.as_view(), name='register'),
+    path('api/login/', LoginAPI.as_view(), name='login'),
+    path('api/logout/', knox_views.LogoutView.as_view(), name='logout'),
+    path('api/logoutall/', knox_views.LogoutAllView.as_view(), name='logoutall'),
 ]
+

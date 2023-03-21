@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'assists.apps.AssistConfig',
     'rest_framework',
+    'rest_framework.authtoken',
+    'knox',
     'corsheaders',
 ]
 
