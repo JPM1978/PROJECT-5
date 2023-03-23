@@ -1,18 +1,13 @@
 # ASSIST MANAGER PRO 
 An application to create, save, edit, update and/or delete projects used by project managers. Creates a database of users with there individual projects
 
-### Technologies/Methods Used
-- React
-- CRUD
-- API
+### Technologies Used
 - Render
 - Django
-- CSS
 - POSTMAN
-- SCHEMA
 - SWIFT
 - SWIFTUI
-- NODE JS
+- KNOX
   
 
 ### WIREFRAMES
