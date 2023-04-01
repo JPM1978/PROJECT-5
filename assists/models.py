@@ -8,4 +8,4 @@ class Assist(models.Model):
     manufacture = models.CharField(max_length=100)
     address = models.CharField(max_length=100)
     due = models.CharField(max_length=100)
-    details = models.CharField(max_length=5000)
+    details = models.CharField(max_length=2000)
